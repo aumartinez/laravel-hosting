@@ -35,7 +35,7 @@ laravel/
 
 ## Move public files
 
-In your account folders locate the public_html folder which is the folder that is accessible through web requests and will be the folder that will serve the websit and application.
+In your account folders locate the public_html folder which is the folder that is accessible through web requests and will be the folder that will serve the website and application.
 
 From your application folder you will need to upload or copy the public folder files there. In my implementation Laravel is used in the backend as an API with the database, then I am saving the public files from the Laravel project to an '/api' folder.
 
