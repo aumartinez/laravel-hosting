@@ -1,4 +1,4 @@
-# Host your Laravel on a shared hosting service
+# Host your Laravel project on a shared hosting service
 
 ## First create your project locally
 
