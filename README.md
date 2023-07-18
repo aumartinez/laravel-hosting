@@ -12,7 +12,7 @@ In your local machine just create a zip package containing your application file
 
 Log in to your shared hosting account and access cPanel, in cPanel access File Manager and create a new folder in your top account level.
 
-For example if you create a folder named "laravel" in your top level, it could be located in '/home/youraccount/laravel'.
+For example if you create a folder named "laravel" in your account top level, it could be located in '/home/youraccount/laravel'.
 
 Access your project folder and just use the built-in uploader to upload the zip file, once uploaded, just right click on the file and you will find and extract/descompress option, it will add your project files to this new folder.
 
