@@ -100,3 +100,7 @@ Finally, it you want to test if everything is right, just access your public URL
 If you get the Laravel landing page, you got it right, if you don't just go and check in the error log file in your public folder and check if you got the right path.
 
 ![Alt Laravel](laravel.png)
+
+## Note
+
+Please notice, this shows just the initial Laravel install, if you have your application ready, you need to migrate your database and since you may not be able to run the php artisan commands, you may have to manually upload your DB export in your hosting database.
