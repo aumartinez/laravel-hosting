@@ -18,6 +18,7 @@ Access your project folder and just use the built-in uploader to upload the zip 
 
 For example in your top level folder, you may have the following folder structure
 
+```bash
 laravel/
 ├─ app/
 │  ├─ app/
@@ -30,6 +31,7 @@ laravel/
 │  ├─ storage/
 │  ├─ tests/
 │  ├─ vendor/
+```
 
 ## Move public files
 
@@ -39,6 +41,7 @@ From your application folder you will need to upload or copy the public folder f
 
 In the public_html folder you may end up with a folder structure as follows:
 
+```bash
 public_html/
 ├─ api/
 │  ├─ .htaccess
@@ -46,6 +49,7 @@ public_html/
 │  ├─ index.php
 │  ├─ robots.txt
 │  ├─ web.config
+```
 
 ## Update your .env file
 
@@ -85,5 +89,6 @@ require __DIR__.'/../../../laravel/app/vendor/autoload.php';
 ...
 $app = require_once __DIR__.'/../../../laravel/app/bootstrap/app.php';
 ...
+```
 
 Adjust the location with your own project structure, please notice the above follows the project structure for this specific implementation.
