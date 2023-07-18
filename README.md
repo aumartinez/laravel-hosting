@@ -92,3 +92,11 @@ $app = require_once __DIR__.'/../../../laravel/app/bootstrap/app.php';
 ```
 
 Adjust the location with your own project structure, please notice the above follows the project structure for this specific implementation.
+
+## Test your application
+
+Finally, it you want to test if everything is right, just access your public URL for example: https://yourwebsite.com/api 
+
+If you get the Laravel landing page, you got it right, if you don't just go and check in the error log file in your public folder and check if you got the right path.
+
+![Alt Laravel](laravel.png)
