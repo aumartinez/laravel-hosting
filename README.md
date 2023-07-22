@@ -43,7 +43,7 @@ In the public_html folder you may end up with a folder structure as follows:
 
 ```bash
 public_html/
-├─ api/
+├─ app/
 │  ├─ .htaccess
 │  ├─ favicon.ico
 │  ├─ index.php
@@ -57,7 +57,7 @@ In the protected Laravel folder update the application settings to your account 
 
 A few lines should be updated for example:
 ```bash
-APP_URL=https://mywebsite.com/api/
+APP_URL=https://mywebsite.com/app/
 
 DB_CONNECTION=mysql
 DB_HOST=localhost
@@ -95,7 +95,7 @@ Adjust the location with your own project structure, please notice the above fol
 
 ## Test your application
 
-Finally, it you want to test if everything is right, just access your public URL for example: https://yourwebsite.com/api 
+Finally, it you want to test if everything is right, just access your public URL for example: https://yourwebsite.com/app 
 
 If you get the Laravel landing page, you got it right, if you don't just go and check in the error log file in your public folder and check if you got the right path.
 
