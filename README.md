@@ -37,7 +37,7 @@ laravel/
 
 In your account folders locate the public_html folder which is the folder that is accessible through web requests and will be the folder that will serve the website and application.
 
-From your application folder you will need to upload or copy the public folder files there. In my implementation Laravel is used in the backend as an API with the database, then I am saving the public files from the Laravel project to an '/api' folder.
+From your application folder you will need to upload or copy the public folder files there. In my implementation Laravel is used in the backend as an API with the database, then I am saving the public files from the Laravel project to an '/app' folder.
 
 In the public_html folder you may end up with a folder structure as follows:
 
@@ -70,7 +70,7 @@ Just replace with your own values.
 
 ## Update index.php in public folder
 
-Since public Laravel application files are in the /api subfolder, just go and update the index.php file located there.
+Since public Laravel application files are in the /app subfolder, just go and update the index.php file located there.
 
 The routes there should reference the location of the application files that are at the top level of the shared hosting account.
 
