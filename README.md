@@ -77,17 +77,17 @@ The routes there should reference the location of the application files that are
 In index.php update the lines:
 
 ```php
-require __DIR__.'/../vendor/autoload.php';
+require '/../vendor/autoload.php';
 ...
-$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once '/../bootstrap/app.php';
 ...
 ```
 
 to:
 ```php
-require __DIR__.'/../../../laravel/app/vendor/autoload.php';
+require '/home/youraccount/laravel/app/vendor/autoload.php';
 ...
-$app = require_once __DIR__.'/../../../laravel/app/bootstrap/app.php';
+$app = require_once '/home/youraccount/laravel/app/bootstrap/app.php';
 ...
 ```
 
